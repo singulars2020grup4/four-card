@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: hsl(234, 12%, 34%);
+    background-color: hsl(0, 0%, 98%);
+    margin: 0 1.8rem;
+}
+
+strong {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 1.56rem;
+    font-weight: 200;
+    letter-spacing: 0.03rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+    letter-spacing: 0.005rem;
+}
+
+.description {
+    font-size: 0.85rem;
+    letter-spacing: 0.015rem;
+    line-height: 1.5rem;
+    padding-top: 0.3rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro {
+    text-align: center;
+    max-width: 35rem;
+    margin: 0 auto 5.1rem auto;
+}
+
+.card {
+    box-shadow: 0rem 1rem 1rem 0 hsla(229, 6%, 66%, 20%);
+    background-color: white;
+    border-radius: 0.6rem;
+    height: 14.9rem;
+    width: 20.7rem;
+    display: block;
+    margin: 1.7rem auto;
+    overflow: hidden;
+}
+  
+.container {
+    padding: 1.5rem 1.85rem;
+}
+
+.color {
+    width: 100%;
+    height: 2%;  
+}
+
+.color.cian {
+    background-color: hsl(180, 62%, 55%);
+}
+
+.color.red {
+    background-color: hsl(0, 78%, 62%);
+}
+
+.color.orange {
+    background-color: hsl(34, 97%, 64%);
+}
+
+.color.blue {
+    background-color: hsl(212, 86%, 64%);
+}
+
+.icon {
+    text-align: right;
+    padding: 0.8rem 1.85rem 0 0rem;
+}
+
+.icon img{
+    width: 3.8rem;  
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    position: static;
+    margin-top: 3rem;
+}
+
+.attribution {
+    padding: 0.75rem 0;
+}
+
+@media (min-width: 1440px) {
+
+    h1 {
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 1.32rem;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+
+    .description {
+        line-height: 1.55rem;
+        padding-top: 0.55rem;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 18.7rem 18.7rem;
+        width: 74rem;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 23.2rem;
+        height: 16.7rem;
+        margin: 0;
+        align-self: center;
+    }
+
+    .card.first {
+        grid-column: 1;
+        grid-row: 1 / span 3;
+        align-self: center;
+    }
+
+    .card.last {
+        grid-column: 3;
+        grid-row: 1 / span 3;
+        align-self: center;
+    }
+
+    .intro {
+        margin: 0 auto 3em auto;
+    }
+
+    .container {
+        padding: 1.8rem 2.1rem;
+    }
+
+    .icon {
+        text-align: right;
+        padding: 1.2rem 2.15rem 0 0rem;
+    }
+    
+    .icon img{
+        width: 4.2rem;  
+    }
+
+
+}
